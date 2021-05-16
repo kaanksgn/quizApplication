@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addQuestionActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/textViewEdit"
+            android:layout_width="267dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/amethysta"
+
+            android:text="Soru : "
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="69dp"
+            tools:layout_editor_absoluteY="29dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+        <EditText
+            android:hint="Soruyu yazın."
+            android:id="@+id/editQuestionText"
+            android:fontFamily="@font/amethysta"
+            android:layout_width="335dp"
+            android:layout_height="142dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="30dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="68dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amethysta"
+        >
+
+        <EditText
+            android:id="@+id/editOption1"
+
+            android:layout_width="317dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:ems="10"
+            android:hint="1. Şık *Gerekli"
+
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amethysta"
+        >
+
+        <EditText
+            android:id="@+id/editOption2"
+            android:layout_width="317dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+
+            android:hint="2. Şık *Gerekli"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amethysta"
+        >
+        <EditText
+            android:id="@+id/editOption3"
+
+            android:layout_width="317dp"
+            android:hint="3. Şık"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="15dp"
+
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amethysta"
+        >
+        <EditText
+            android:id="@+id/editOption4"
+
+            android:hint="4. Şık"
+            android:layout_marginLeft="35dp"
+            android:layout_width="317dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amethysta"
+        >
+        <EditText
+            android:hint="5. Şık"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/editOption5"
+            android:layout_width="317dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:fontFamily="@font/amethysta"
+            android:layout_marginLeft="80dp"
+            android:id="@+id/radioBoxText"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="Dogru Cevabı Aşağıda Belirtin :"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:id="@+id/editRightAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                android:id="@+id/editA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A" />
+
+            <RadioButton
+                android:id="@+id/editB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B" />
+            <RadioButton
+                android:id="@+id/editC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C" />
+            <RadioButton
+                android:id="@+id/editD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="D" />
+
+            <RadioButton
+                android:id="@+id/editE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="E" />
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/questionEditButton"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="6dp"
+            android:backgroundTint="#FF018786"
+            android:fontFamily="@font/amethysta"
+            android:text="Soruyu Güncelle" />
+
+        <Button
+            android:id="@+id/questionDeleteButton"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#FF018786"
+            android:fontFamily="@font/amethysta"
+            android:text="Soruyu Sil" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

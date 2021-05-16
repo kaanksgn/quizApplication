@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".setExamActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/quizDurationTextHeader"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="Sınav Süresi :"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:fontFamily="@font/amethysta"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="70dp"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="65dp" />
+
+        <TextView
+            android:id="@+id/quizDurationDisplayer"
+            android:fontFamily="@font/amethysta"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="206dp"
+            tools:layout_editor_absoluteY="69dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/quizDifficultyTextHeader"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:fontFamily="@font/amethysta"
+            android:text="Sınav Zorluğu"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="110dp" />
+
+        <TextView
+            android:id="@+id/quizDifficultyDisplayer"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="40dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="209dp"
+            tools:layout_editor_absoluteY="121dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/quizPointTextHeader"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="Soru Başına Puan"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:fontFamily="@font/amethysta"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="174dp" />
+
+        <TextView
+            android:id="@+id/quizPointDisplayer"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="15dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="200dp"
+            tools:layout_editor_absoluteY="171dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:layout_marginLeft="55dp"
+            android:id="@+id/quizChangeSettingsButton"
+            android:layout_marginTop="50dp"
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:text="Ayarları Değiştir"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="302dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:layout_marginLeft="55dp"
+            android:id="@+id/quizAddQuestionsButton"
+            android:layout_marginTop="50dp"
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:text="Soru Ekle/Görüntüle"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="302dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:layout_marginLeft="55dp"
+            android:id="@+id/quizSetExamButton"
+            android:layout_marginTop="50dp"
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:text="Sınavı Oluştur"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="302dp" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

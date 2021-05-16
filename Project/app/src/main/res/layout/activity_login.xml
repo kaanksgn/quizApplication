@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8D5D5"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        >
+        <ImageView
+            android:id="@+id/LoggedInPhoto"
+            android:layout_width="127dp"
+            android:layout_height="129dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="25dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/LoggeInName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="152dp"
+            tools:layout_editor_absoluteY="48dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        >
+        <ImageButton
+            android:id="@+id/addQuestionButton"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic__45_transform"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="207dp" />
+
+        <ImageButton
+            android:layout_marginLeft="30dp"
+            android:id="@+id/settingsButton"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic__41_settings"
+            tools:layout_editor_absoluteX="235dp"
+            tools:layout_editor_absoluteY="207dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+        android:layout_marginLeft="30dp"
+        android:id="@+id/textSoruEkleme"
+        android:layout_width="160dp"
+        android:layout_height="24dp"
+        android:capitalize="characters"
+        android:fontFamily="@font/amethysta"
+        android:gravity="center"
+        android:text="Soru Ekleme"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="375dp"
+        />
+
+
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:id="@+id/textAyarlar"
+            android:layout_width="160dp"
+            android:layout_height="24dp"
+            android:capitalize="characters"
+            android:fontFamily="@font/amethysta"
+            android:gravity="center"
+            android:text="Ayarlar"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="235dp"
+            tools:layout_editor_absoluteY="375dp"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        >
+        <ImageButton
+            android:id="@+id/listQuestionsButton"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic__27_layers"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="430dp" />
+
+        <ImageButton
+            android:layout_marginLeft="30dp"
+            android:id="@+id/makeQuizButton"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic__38_draw"
+            tools:layout_editor_absoluteX="235dp"
+            tools:layout_editor_absoluteY="430dp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+        <TextView
+            android:layout_marginLeft="31dp"
+            android:id="@+id/textSoruListeleme"
+            android:layout_width="160dp"
+            android:layout_height="24dp"
+            android:capitalize="characters"
+            android:fontFamily="@font/amethysta"
+            android:gravity="center"
+            android:text="Soru Listeleme"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="600dp"
+            />
+
+        <TextView
+            android:layout_marginLeft="31dp"
+            android:id="@+id/textSinavOlustur"
+            android:layout_width="160dp"
+            android:layout_height="24dp"
+            android:capitalize="characters"
+            android:fontFamily="@font/amethysta"
+            android:gravity="center"
+            android:text="Sınav Oluşturma"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="235dp"
+            tools:layout_editor_absoluteY="600dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

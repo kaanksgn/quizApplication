@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".photoPickerActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="25dp"
+        >
+        <ImageButton
+
+            android:id="@+id/image1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="#3601C1C0"
+            android:scaleType="fitCenter"
+
+            app:srcCompat="@drawable/avatar2"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="537dp" />
+
+        <ImageButton
+            android:id="@+id/image2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="#FFFF"
+            android:scaleType="fitCenter"
+
+            app:srcCompat="@drawable/avatar3"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="377dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginLeft="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+        <ImageButton
+            android:id="@+id/image3"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="#FFFF"
+            android:scaleType="fitCenter"
+
+            app:srcCompat="@drawable/avatar4"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="537dp" />
+
+        <ImageButton
+            android:id="@+id/image4"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="#FFFF"
+            android:scaleType="fitCenter"
+
+            app:srcCompat="@drawable/avatar9"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="377dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+        <ImageButton
+            android:id="@+id/image5"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="#FFFF"
+            android:scaleType="fitCenter"
+
+            app:srcCompat="@drawable/avatar6"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="537dp" />
+
+        <ImageButton
+            android:id="@+id/image6"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="#FFFF"
+            android:scaleType="fitCenter"
+
+            app:srcCompat="@drawable/avatar7"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="377dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+        <ImageButton
+            android:id="@+id/image7"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="#FFFF"
+            android:scaleType="fitCenter"
+
+            app:srcCompat="@drawable/avatar8"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="537dp" />
+
+        <ImageButton
+            android:id="@+id/image8"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="#FFFF"
+            android:scaleType="fitCenter"
+
+            app:srcCompat="@drawable/avatar5"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="377dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <EditText
+            android:id="@+id/avatarText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Avatar Seçildi."
+            android:textStyle="bold"
+
+
+            android:fontFamily="@font/amethysta"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/avatarPickButton"
+            android:backgroundTint="#6608AEAD"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Avatarı Seç" />
+
+    </LinearLayout>
+
+</LinearLayout>
